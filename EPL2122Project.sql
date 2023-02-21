@@ -461,8 +461,7 @@ from (select distinct(c.team), count(case
  -- As the winner of the EPL 21/22, Manchester city also has the most goals difference, which is really well-deserved based on their performance throughout the season
  -- Norwich, on the other hand, claim the least goals difference which is -61 (23 gf, 84 ga)
  -- Goals difference is the factor to rank teams when they have the same point
- -- In this season since no team had the same point, this goals difference can be used to show how dominance the top 4 teams are among the rest of the league, especially top 1 and 2
-
+ 
  -- In every query, i create a stored procedure to help with the visualization later on
  
  exec Win 
